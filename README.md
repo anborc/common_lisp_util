@@ -1,5 +1,5 @@
 # Common Lisp Util
-some utilities for Common Lisp
+Some utilities for Common Lisp
 
 ## General Utilities
 util.lisp
