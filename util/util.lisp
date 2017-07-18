@@ -2305,3 +2305,7 @@ result using convolve
 ;;(divide-string :str "jinikaci" :length 3) -> ("jin" "ika" "ci")
 ;;(divide-string :str "jinikaci" :length 10) -> ("jinikaci")
 ;;(divide-string :str "jinikaci" :length 1) -> ("j" "i" "n" "i" "k" "a" "c" "i")
+
+(defun to-radian (&key (angle 45))
+  (* (/ angle 180) pi))
+
